@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/swetna/Desktop/Speech_to_text/AzureSpeechTest/AzureSpeechTest.csproj": {}
+  },
+  "projects": {
+    "/Users/swetna/Desktop/Speech_to_text/AzureSpeechTest/AzureSpeechTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/swetna/Desktop/Speech_to_text/AzureSpeechTest/AzureSpeechTest.csproj",
+        "projectName": "AzureSpeechTest",
+        "projectPath": "/Users/swetna/Desktop/Speech_to_text/AzureSpeechTest/AzureSpeechTest.csproj",
+        "packagesPath": "/Users/swetna/.nuget/packages/",
+        "outputPath": "/Users/swetna/Desktop/Speech_to_text/AzureSpeechTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/swetna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.CognitiveServices.Speech": {
+              "target": "Package",
+              "version": "[1.43.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
